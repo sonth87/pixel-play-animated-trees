@@ -1,0 +1,18 @@
+{
+  "name": "cherry",
+  "fps": 12,
+  "frame": { "width": 258, "height": 194 },
+  "pivot": { "x": 120, "y": 191 },
+  "ground": "cherry_ground.png",
+  "plant": {
+    "idle": { "files": ["cherry_idle.png"], "frames": 1, "columns": 1, "rows": 1, "loop": true },
+    "breeze": { "files": ["cherry_breeze.png"], "frames": 59, "columns": 15, "rows": 4, "loop": true },
+    "wind": { "files": ["cherry_wind.png"], "frames": 49, "columns": 15, "rows": 4, "loop": true },
+    "shake": { "files": ["cherry_shake.png"], "frames": 21, "columns": 15, "rows": 2, "loop": false }
+  },
+  "grass": "cherry_grass.png",
+  "leaves": {
+    "fall": { "files": ["cherry_fall_1.png", "cherry_fall_2.png"], "frames": 427, "columns": 15, "rows": 21, "loop": false },
+    "drift": { "files": ["cherry_drift.png"], "frames": 60, "columns": 15, "rows": 4, "loop": true }
+  }
+}

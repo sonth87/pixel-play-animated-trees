@@ -1,0 +1,18 @@
+{
+  "name": "maple",
+  "fps": 12,
+  "frame": { "width": 269, "height": 197 },
+  "pivot": { "x": 118, "y": 194 },
+  "ground": "maple_ground.png",
+  "plant": {
+    "idle": { "files": ["maple_idle.png"], "frames": 1, "columns": 1, "rows": 1, "loop": true },
+    "breeze": { "files": ["maple_breeze.png"], "frames": 62, "columns": 15, "rows": 5, "loop": true },
+    "wind": { "files": ["maple_wind.png"], "frames": 51, "columns": 15, "rows": 4, "loop": true },
+    "shake": { "files": ["maple_shake.png"], "frames": 21, "columns": 15, "rows": 2, "loop": false }
+  },
+  "grass": "maple_grass.png",
+  "leaves": {
+    "fall": { "files": ["maple_fall.png"], "frames": 277, "columns": 15, "rows": 19, "loop": false },
+    "drift": { "files": ["maple_drift.png"], "frames": 60, "columns": 15, "rows": 4, "loop": true }
+  }
+}

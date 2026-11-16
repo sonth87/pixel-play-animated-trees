@@ -1,0 +1,17 @@
+{
+  "name": "bush",
+  "fps": 12,
+  "frame": { "width": 182, "height": 112 },
+  "pivot": { "x": 89, "y": 109 },
+  "ground": "bush_ground.png",
+  "plant": {
+    "idle": { "files": ["bush_idle.png"], "frames": 1, "columns": 1, "rows": 1, "loop": true },
+    "breeze": { "files": ["bush_breeze.png"], "frames": 46, "columns": 22, "rows": 3, "loop": true },
+    "wind": { "files": ["bush_wind.png"], "frames": 38, "columns": 22, "rows": 2, "loop": true },
+    "shake": { "files": ["bush_shake.png"], "frames": 19, "columns": 19, "rows": 1, "loop": false }
+  },
+  "leaves": {
+    "fall": { "files": ["bush_fall.png"], "frames": 109, "columns": 22, "rows": 5, "loop": false },
+    "drift": { "files": ["bush_drift.png"], "frames": 60, "columns": 22, "rows": 3, "loop": true }
+  }
+}

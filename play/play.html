@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixel Play</title>
+    <script src="pixel-play.js"></script>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #ffffff;
+        color: #1d1d1f;
+        font: 15px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      }
+      main {
+        width: min(960px, 100% - 40px);
+        padding: 40px 0;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+      }
+      p {
+        margin: 0 0 24px;
+        color: #6e6e76;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Pixel Play</h1>
+      <p>Tap a tree to shake it, or drag a branch and let go.</p>
+      <pixel-play controls></pixel-play>
+    </main>
+  </body>
+</html>
